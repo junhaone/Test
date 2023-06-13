@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from scipy import signal
 
 # 전달함수 정의
+######
 s1 = signal.lti([100], [1, 5, 106])
 
 # 주파수 범위 설정
